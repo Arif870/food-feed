@@ -147,3 +147,49 @@ a {
   line-height: 30px;
   color: rgb(57, 57, 57);
 }
+
+/* social-contributor styling */
+
+.social-contributor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 0px 16px -2px #abccab;
+  border-radius: 10px;
+  width: 87%;
+  margin: 100px auto;
+  text-align: center;
+}
+.social-contributor .contributor {
+  width: 30%;
+}
+.social-contributor .contributor h1 {
+  color: rgb(36, 36, 36);
+  font-size: 35px;
+  margin-bottom: 0px !important;
+}
+.social-contributor .contributor p {
+  color: rgb(116, 116, 116);
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+/* footer section design */
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer h2 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+footer h2 span {
+  color: orange;
+}
+footer p {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
