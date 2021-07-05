@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+a {
+  text-decoration: none;
+}
+
+/* #### diet styling #### */
+.diet {
+  background-image: url(../images/female/1-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.full-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.left-content {
+  width: 38%;
+}
+.left-content h2 {
+  font-size: 50px;
+  line-height: 80px;
+  color: rgb(36, 36, 36);
+}
+.left-content h2 span {
+  color: green;
+}
+.left-content p {
+  font-size: 16px;
+  line-height: 25px;
+  color: rgb(41, 41, 41);
+}
+.left-content a {
+  background-image: linear-gradient(#5ba219, green);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.4s;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+.left-content a:hover {
+  box-shadow: 3px 2px 11px -3px green;
+}
+
+.right-content {
+  width: 45%;
+}
+.right-content img {
+  width: 80%;
+  float: right;
+}
