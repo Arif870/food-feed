@@ -107,3 +107,43 @@ a {
 .aboutme-main .right-section a:hover {
   box-shadow: 3px 2px 11px -3px green;
 }
+.my-recepies {
+  margin-top: 100px;
+}
+.my-recepies .top-section {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.my-recepies .top-section h2 {
+  font-size: 40px;
+  color: rgb(36, 36, 36);
+}
+.my-recepies .top-section p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(57, 57, 57);
+}
+.my-recepies .card-section {
+  display: flex;
+  justify-content: center;
+}
+.my-recepies .card-section .card {
+  width: 25%;
+  box-shadow: 0px 0px 16px -2px #abccab;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.my-recepies .card-section .card img {
+  width: 100%;
+}
+.my-recepies .card-section .card h2 {
+  color: rgb(36, 36, 36);
+}
+.my-recepies .card-section .card p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(57, 57, 57);
+}
