@@ -34,8 +34,8 @@ a {
 }
 .left-content p {
   font-size: 16px;
-  line-height: 25px;
-  color: rgb(41, 41, 41);
+  line-height: 30px;
+  color: rgb(57, 57, 57);
 }
 .left-content a {
   background-image: linear-gradient(#5ba219, green);
@@ -45,6 +45,7 @@ a {
   transition: 0.4s;
   margin-top: 1.5rem;
   display: inline-block;
+  font-weight: 500;
 }
 .left-content a:hover {
   box-shadow: 3px 2px 11px -3px green;
@@ -56,4 +57,53 @@ a {
 .right-content img {
   width: 80%;
   float: right;
+}
+
+/* About me section styling */
+
+.about-me {
+  background-color: #e8f9df;
+  background-image: url(../images/female/2bg.png);
+  padding-top: 30px;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutme-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme-main .left-section {
+  width: 45%;
+}
+.aboutme-main .left-section img {
+  width: 60%;
+  margin-bottom: -6px;
+}
+.aboutme-main .right-section {
+  width: 40%;
+}
+.aboutme-main .right-section h2 {
+  font-size: 40px;
+  color: rgb(36, 36, 36);
+}
+.aboutme-main .right-section p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(57, 57, 57);
+}
+.aboutme-main .right-section a {
+  background-image: linear-gradient(#5ba219, green);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.4s;
+  margin-top: 1.5rem;
+  display: inline-block;
+  font-weight: 500;
+}
+.aboutme-main .right-section a:hover {
+  box-shadow: 3px 2px 11px -3px green;
 }
