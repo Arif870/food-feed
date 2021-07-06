@@ -65,7 +65,7 @@ a {
   background-color: #e8f9df;
   background-image: url(../images/female/2bg.png);
   padding-top: 30px;
-  margin-top: 100px;
+  margin-top: 150px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -108,7 +108,7 @@ a {
   box-shadow: 3px 2px 11px -3px green;
 }
 .my-recepies {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .my-recepies .top-section {
   width: 60%;
@@ -148,6 +148,43 @@ a {
   color: rgb(57, 57, 57);
 }
 
+/* special part styling */
+
+.special {
+  margin-top: 150px;
+  background-image: url(../images/female/delicious.bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+
+  position: relative;
+}
+.special h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.special .image {
+  width: 60%;
+  margin: auto;
+}
+.special .image img {
+  width: 100%;
+}
+.special .image a {
+  color: rgb(55, 55, 55);
+  padding: 10px 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 20%;
+  box-shadow: 0px 0px 16px -2px #abccab;
+  display: inline-block;
+  border-left: 10px solid orange;
+  font-weight: 800;
+  font-size: 25px;
+}
+
 /* social-contributor styling */
 
 .social-contributor {
@@ -158,7 +195,7 @@ a {
   box-shadow: 0px 0px 16px -2px #abccab;
   border-radius: 10px;
   width: 87%;
-  margin: 100px auto;
+  margin: 150px auto;
   text-align: center;
 }
 .social-contributor .contributor {
